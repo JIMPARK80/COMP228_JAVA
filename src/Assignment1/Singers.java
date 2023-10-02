@@ -1,12 +1,14 @@
 package Assignment1;
 
+// declare variable
 class Singers {
-    private int id;
-    private String name;
-    private String address;
-    private String dateOfBirth;
-    private int albumsPublished;
+    private int id; // store the singer's ID
+    private String name; // store the singer's name
+    private String address; // store the singer's address
+    private String dateOfBirth; // store the singer's birthday
+    private int albumsPublished; // store the number of albums
 
+    // initialize member variables
     public Singers() {
         id = 0;
         name = null;
@@ -15,6 +17,8 @@ class Singers {
         albumsPublished = 0;
     }
 
+    
+    // Constructor with parameters
     public Singers(int id, String name, String address, String dateOfBirth, int albumsPublished) {
         this.id = id;
         this.name = name;
@@ -23,6 +27,7 @@ class Singers {
         this.albumsPublished = albumsPublished;
     }
 
+    // Setter methods: Set values
     public void setId(int id) {
         this.id = id;
     }
@@ -43,6 +48,7 @@ class Singers {
         this.albumsPublished = albumsPublished;
     }
 
+    // Getter methods: Get values
     public int getId() {
         return id;
     }
@@ -63,6 +69,7 @@ class Singers {
         return albumsPublished;
     }
 
+    // Method to display information
     public void display() {
         System.out.println("Singer's ID: " + getId());
         System.out.println("Singer's Name: " + getName());
