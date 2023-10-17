@@ -1,4 +1,4 @@
-package p2;
+package p2_variable_datatype;
 
 public class variable1 {
 	public static void main(String[] args) {
