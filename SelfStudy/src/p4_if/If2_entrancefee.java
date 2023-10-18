@@ -1,6 +1,6 @@
 package p4_if;
 
-public class if2_entrancefee {
+public class If2_entrancefee {
 
 	public static void main(String[] args) {
 		int age = 65;

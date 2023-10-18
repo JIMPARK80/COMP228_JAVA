@@ -1,6 +1,6 @@
 package p4_if;
 
-public class if3_grade {
+public class If3_grade {
 	public static void main(String[] args) {
 		int score = 97;
 		char grade;
