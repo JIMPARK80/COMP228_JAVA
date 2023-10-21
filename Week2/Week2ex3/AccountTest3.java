@@ -5,12 +5,12 @@ package Week2ex3;
 
 import java.util.Scanner;
 
-public class AccountTest
+public class AccountTest3
 {
    public static void main(String[] args) 
    {
-      Account account1 = new Account("Jane Green", 50.00);
-      Account account2 = new Account("John Blue", -7.53); 
+      Account3 account1 = new Account3("Jane Green", 50.00);
+      Account3 account2 = new Account3("John Blue", -7.53); 
 
       // display initial balance of each object
       System.out.printf("%s balance: $%.2f%n",

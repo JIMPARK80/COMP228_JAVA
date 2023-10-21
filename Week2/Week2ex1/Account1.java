@@ -1,26 +1,26 @@
-// Fig. 3.6: AccountTest.java
-// Using the Account constructor to initialize the name instance
-// variable at the time each Account object is created.
+// Fig. 3.1: Account.java
+// Account class that contains an name instance variable 
+// and methods to set and get its value.
 
-package Week2ex2;
+package Week2ex1;
 
-public class AccountTest
+public class Account1
 {
-   public static void main(String[] args)
-   { 
-      // create two Account objects
-      Account account1 = new Account("Jane Green",100.00);
-      Account account2 = new Account("John Blue",50.95); 
+   private String name; // instance variable
+ 
+   // method to set the name in the object              
+   public void setName(String name)      
+   {                                             
+      this.name = name; // store the name
+   }         
 
-      // display initial value of name for each Account
-      System.out.printf("account1 name is: %s%n", account1.getName());
-      System.out.printf("account2 name is: %s%n", account2.getName());
-      //
-      System.out.printf("account2 name is: %f%n", account2.getBalance());
+   // method to retrieve the name from the object
+   public String getName()        
+   {                                    
+      return name; // return value of name to caller        
+   }         
+} // end class Account
 
-   }
-   
-} // end class AccountTest
 
 /**************************************************************************
  * (C) Copyright 1992-2014 by Deitel & Associates, Inc. and               *

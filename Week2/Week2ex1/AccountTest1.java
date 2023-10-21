@@ -5,7 +5,7 @@ package Week2ex1;
 
 import java.util.Scanner;
 
-public class AccountTest
+public class AccountTest1
 {
    public static void main(String[] args)
    { 
@@ -13,7 +13,7 @@ public class AccountTest
       Scanner input = new Scanner(System.in);
 
       // create an Account object and assign it to myAccount
-      Account myAccount = new Account(); 
+      Account1 myAccount = new Account1(); 
 
       // display initial value of name (null)
       System.out.printf("Initial name is: %s%n%n", myAccount.getName());
@@ -25,7 +25,7 @@ public class AccountTest
       System.out.println(); // outputs a blank line
 
       // display the name stored in object myAccount
-      System.out.printf("Name in object myAccount is:%n%s%n",
+      System.out.printf("Name in object myAccount is:%s%n%n",
          myAccount.getName());
    } 
 } // end class AccountTest

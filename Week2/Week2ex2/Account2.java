@@ -3,7 +3,7 @@
 // Account class with a constructor that initializes the name.
 
 package Week2ex2;
-public class Account
+public class Account2
 {
    //declare a variable to hold the balance
    private double balance;
@@ -19,7 +19,7 @@ public class Account
    }
 
 // constructor initializes name with parameter name
-   public Account(String name, double balance) // constructor name is class name 
+   public Account2(String name, double balance) // constructor name is class name 
    {                                                               
       this.name = name;
       this.balance=balance;

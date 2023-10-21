@@ -4,13 +4,13 @@
 
 package Week2ex3;
 
-public class Account
+public class Account3
 {   
    private String name; // instance variable 
    private double balance; // instance variable 
 
    // Account constructor that receives two parameters  
-   public Account(String name, double balance) 
+   public Account3(String name, double balance) 
    {
       this.name = name; // assign name to instance variable name
 
