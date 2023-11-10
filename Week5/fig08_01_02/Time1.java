@@ -1,4 +1,4 @@
-package fig08_01_02;
+kage fig08_01_02;
 
 // Fig. 8.1: Time1.java
 // Time1 class declaration maintains the time in 24-hour format.
