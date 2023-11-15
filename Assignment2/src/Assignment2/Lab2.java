@@ -109,11 +109,11 @@ public class Lab2 {
         System.out.println();
 
         // Set values for singer1 using setters
-        singer1.setName("John Doe");
-        singer1.setAddress("1234 Main St, City");
+        singer1.setName("JIM PARK");
+        singer1.setAddress("222 Yonge St, Toronto City");
         singer1.setDateOfBirth(new Date());
         singer1.setSingerId(1);
-        singer1.setNumberOfAlbums(10);
+        singer1.setNumberOfAlbums(22);
 
         // Display updated values
         System.out.println("Updated values for singer1:");
