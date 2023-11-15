@@ -2,7 +2,7 @@
 // Subject: Lab3 Assignment3
 // Student: Jinsung Park(301241866) //
 
-package Java_Lab3;
+package assignment3;
 
 class Main{
 	public static void main(String[] args) {

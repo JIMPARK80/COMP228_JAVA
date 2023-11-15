@@ -1,7 +1,7 @@
 // course: COMP228, Java Programming
 // Title: Assignment4
 // Name: Jinsung Park (301241866) //
-package Assignment;
+package assignment4;
 import java.util.Stack;
 
 public class Assignment4 {

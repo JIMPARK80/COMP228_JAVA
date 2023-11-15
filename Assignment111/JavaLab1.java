@@ -1,4 +1,4 @@
-package Assignment1;
+package assignment1;
 
 // Course: COMP228(SEC.016) Java Programming
 // Subject: Lab1 Assignment1
