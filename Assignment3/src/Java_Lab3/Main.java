@@ -1,4 +1,4 @@
-// Course: COMP228(SEC.016) Java Programming
+// Course: COMP228(SEC.016) Java 
 // Subject: Lab3 Assignment3
 // Student: Jinsung Park(301241866)
 
